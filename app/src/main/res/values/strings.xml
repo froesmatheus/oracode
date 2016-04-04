@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Oracode</string>
+    <string name="searching_oracode">Searching…</string>
+    <string name="search">Search</string>
+    <string name="ora" translatable="false">ORA-00000</string>
+    <string name="action">Action</string>
+    <string name="cause">Cause</string>
+    <string name="ora_fixed" translatable="false">ORA-</string>
+    <string name="history">History</string>
+    <string name="oracode_not_found">Oracode was not found</string>
+    <string name="internet_connection">No internet connection</string>
+</resources>

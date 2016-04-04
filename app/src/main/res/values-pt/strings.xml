@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action">Ação</string>
+    <string name="cause">Causa</string>
+    <string name="history">Histórico</string>
+    <string name="oracode_not_found">Código não encontrado</string>
+    <string name="search">Pesquisar</string>
+    <string name="searching_oracode">Buscando…</string>
+    <string name="internet_connection">Sem conexão com a internet</string>
+</resources>

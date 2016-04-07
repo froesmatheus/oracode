@@ -32,6 +32,12 @@ public class OracodeDAO {
         return id != -1;
     }
 
+    public boolean delete(long oracodeId) {
+        int status =  db.delete(Db.ORACODE_TABLE_NAME, Db.ORACODE_ID_COLUMN + " = ?", new String[]{oracodeId+""});
+
+        return status > 0;
+    }
+
     public Oracode getOracodeByCode(String oracodeStr) {
         Cursor cursor = db.rawQuery("SELECT * FROM " + Db.ORACODE_TABLE_NAME + " WHERE " + Db.ORACODE_ORACODE_COLUMN + " = '" + oracodeStr + "'", null);
 

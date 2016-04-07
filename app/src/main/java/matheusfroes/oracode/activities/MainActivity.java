@@ -96,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return;
         }
 
+        btnPesquisar.setEnabled(false);
         AsyncTaskCompat.executeParallel(new AsyncTask<String, Void, String[]>() {
             @Override
             protected void onPreExecute() {
@@ -156,6 +157,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 progressDialog.dismiss();
 
                 scrollView.setVisibility(View.VISIBLE);
+                btnPesquisar.setEnabled(true);
             }
         }, edtOracode.getText().toString());
 
@@ -216,6 +218,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String oracode = result[0];
                 if (!oracode.startsWith("ORA")) {
                     progressDialog.dismiss();
+                    btnPesquisar.setEnabled(true);
                     oracodeNotFoundDialog();
                     return;
                 }
@@ -236,6 +239,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 progressDialog.dismiss();
 
                 scrollView.setVisibility(View.VISIBLE);
+                btnPesquisar.setEnabled(true);
             }
         }, edtOracode.getText().toString());
     }

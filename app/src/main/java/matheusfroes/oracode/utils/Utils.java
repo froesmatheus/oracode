@@ -21,4 +21,8 @@ public class Utils {
 
         return def;
     }
+
+    public static String reverseOracode(String oracode) {
+        return oracode.replace("ORA-", "");
+    }
 }

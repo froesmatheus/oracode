@@ -10,4 +10,15 @@
     <string name="oracode_not_found">Oracode was not found</string>
     <string name="internet_connection">No internet connection</string>
     <string name="delete">Delete</string>
+    <string name="about">About</string>
+    <string name="about_message">This app consumes the oracode website and shows the error codes in a nice way :)\n\n
+                                More info: <a href="http://www.ora-code.com/">Oracode</a></string>
+    <string name="empty_history_message">You don\'t have any items on history\nFuture searches will appear here.</string>
+    <string name="history_deleted">History deleted</string>
+    <string name="delete_all">Delete all</string>
+    <string name="no_items">The history is empty</string>
+    <string name="delete_all_history">Are you sure you want to delete the entire history?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="deleted_history">The history was deleted</string>
 </resources>

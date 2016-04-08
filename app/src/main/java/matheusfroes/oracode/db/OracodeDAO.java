@@ -38,6 +38,10 @@ public class OracodeDAO {
         return status > 0;
     }
 
+    public void deleteAllHistory() {
+        db.delete(Db.ORACODE_TABLE_NAME, "1", null);
+    }
+
     public Oracode getOracodeByCode(String oracodeStr) {
         Cursor cursor = db.rawQuery("SELECT * FROM " + Db.ORACODE_TABLE_NAME + " WHERE " + Db.ORACODE_ORACODE_COLUMN + " = '" + oracodeStr + "'", null);
 

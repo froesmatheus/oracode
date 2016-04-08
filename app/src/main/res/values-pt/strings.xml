@@ -7,4 +7,15 @@
     <string name="search">Pesquisar</string>
     <string name="searching_oracode">Buscando…</string>
     <string name="internet_connection">Sem conexão com a internet</string>
+    <string name="about">Sobre</string>
+    <string name="about_message">Este aplicativo consome o site ora-code e mostra as informações sobre o erro de um jeito mais simples\n\n                                 Mais informações: <a href="http://www.ora-code.com/">Oracode</a></string>
+    <string name="delete">Apagar</string>
+    <string name="empty_history_message">Você não tem nenhum item no histórico.\nPesquisas futuras irão aparecer aqui.</string>
+    <string name="history_deleted">Histórico deletado</string>
+    <string name="delete_all_history">Você tem certeza que deseja apagar todo o histórico?</string>
+    <string name="no">Não</string>
+    <string name="no_items">O histórico está vazio</string>
+    <string name="yes">Sim</string>
+    <string name="delete_all">Apagar todos</string>
+    <string name="deleted_history">O histórico foi apagado</string>
 </resources>

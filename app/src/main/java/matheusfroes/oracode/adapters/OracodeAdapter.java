@@ -28,7 +28,7 @@ public class OracodeAdapter extends CursorAdapter {
     public void bindView(View view, Context context, Cursor cursor) {
         TextView textView = (TextView) view.findViewById(android.R.id.text1);
 
-        String oracode = cursor.getString(cursor.getColumnIndex(Db.ORACODE_ORACODE_COLUMN));
+        String oracode = cursor.getString(cursor.getColumnIndex(Db.Companion.getORACODE_ORACODE_COLUMN()));
 
         textView.setText(oracode);
     }
